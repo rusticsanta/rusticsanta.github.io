@@ -54,7 +54,7 @@ const ScreensHome: FunctionComponent = () => (
             {/* TODO: Add subject content for SEO. */}
             <meta name="subject" content="Technology Portfolio" />
         </Helmet>
-        <h1>Latest Work</h1>
+        <h1>Latest WoodWorking Projects</h1>
         <div className="Home">
             <Container>
                 <Row>
