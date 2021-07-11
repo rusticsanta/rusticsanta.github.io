@@ -27,75 +27,85 @@ class NavigationBar extends React.Component<unknown, IState> {
 
     render() {
         return (
-                <Container>
-                    <Row>
-                        <Col>
-                            <Navbar color="fixed" light expand="md">
-                                <NavbarBrand href="/">
-                                    <div>
+            <Container>
+                <Row>
+                    <Col>
+                        <Navbar color="fixed" light expand="md">
+                            <NavbarBrand href="/">
+                                <div>
                                     <Image
-                                            cloudName="rusticsanta"
-                                            publicId="IMG_0072_sfu1ip"
-                                            secure={true}
-                                            quality="auto"
-                                            fetchFormat="auto"
-                                            alt="Rustic Santa Logo"
-                                        >
+                                        cloudName="rusticsanta"
+                                        publicId="IMG_0072_sfu1ip"
+                                        secure={true}
+                                        quality="auto"
+                                        fetchFormat="auto"
+                                        alt="Rustic Santa Logo"
+                                    >
                                         <Transformation quality="auto" radius="30" width="110" crop="thumb" />
                                         <Transformation angle="0" />
-                                        </Image>{' '}
-                                    </div>
-                                </NavbarBrand>
-                                <NavbarToggler onClick={this.toggle} />
-                                <Collapse isOpen={this.state.isOpen} navbar>
-                                    <Nav className="mr-auto" navbar>
-                                        <NavItem>
-                                            <NavLink
-                                                tag={ReactRouterNavLink}
-                                                to="/"
-                                                exact={true}
-                                                name="home"
-                                                activeClassName="active"
-                                            >
-                                                Home
-                                            </NavLink>
-                                        </NavItem>
-                                        <NavItem>
-                                            <NavLink
-                                                tag={ReactRouterNavLink}
-                                                to="/about"
-                                                name="about"
-                                                activeClassName="active"
-                                            >
-                                                About Us
-                                            </NavLink>
-                                        </NavItem>
-                                        <NavItem>
-                                            <NavLink
-                                                tag={ReactRouterNavLink}
-                                                to="/products"
-                                                name="products"
-                                                activeClassName="active"
-                                            >
-                                                Our Products
-                                            </NavLink>
-                                        </NavItem>
-                                        <NavItem>
-                                            <NavLink
-                                                tag={ReactRouterNavLink}
-                                                to="/gallery"
-                                                name="gallery"
-                                                activeClassName="active"
-                                            >
-                                                Photo Gallery
-                                            </NavLink>
-                                        </NavItem>
-                                    </Nav>
-                                </Collapse>
-                            </Navbar>
-                        </Col>
-                    </Row>
-                </Container>
+                                    </Image>{' '}
+                                </div>
+                            </NavbarBrand>
+                            <NavbarToggler onClick={this.toggle} />
+                            <Collapse isOpen={this.state.isOpen} navbar>
+                                <Nav className="mr-auto" navbar>
+                                    <NavItem>
+                                        <NavLink
+                                            tag={ReactRouterNavLink}
+                                            to="/"
+                                            exact={true}
+                                            name="home"
+                                            activeClassName="active"
+                                        >
+                                            Home
+                                        </NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavLink
+                                            tag={ReactRouterNavLink}
+                                            to="/about"
+                                            name="about"
+                                            activeClassName="active"
+                                        >
+                                            About Rustic Santa
+                                        </NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavLink
+                                            tag={ReactRouterNavLink}
+                                            to="/services"
+                                            name="services"
+                                            activeClassName="active"
+                                        >
+                                            Services
+                                        </NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavLink
+                                            tag={ReactRouterNavLink}
+                                            to="/gallery"
+                                            name="gallery"
+                                            activeClassName="active"
+                                        >
+                                            Gallery
+                                        </NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                        <NavLink
+                                            tag={ReactRouterNavLink}
+                                            to="/contact"
+                                            name="contact"
+                                            activeClassName="active"
+                                        >
+                                            Contact Us
+                                        </NavLink>
+                                    </NavItem>
+                                </Nav>
+                            </Collapse>
+                        </Navbar>
+                    </Col>
+                </Row>
+            </Container>
         );
     }
 }

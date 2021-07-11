@@ -1,5 +1,15 @@
 .Header {
     position: relative;
+    font-size: medium;
+}
+
+.Countdown {
+    font-size: large;
+    font-weight: 400;
+}
+
+.RightText {
+    text-align: right;
 }
 
 .parallax {
