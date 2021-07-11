@@ -1,4 +1,6 @@
-.Home-segment{
+@import '~react-image-gallery/styles/css/image-gallery.css';
+
+.Home-segment {
     padding: 1em 0em;
     min-height: 500px;
 }
@@ -22,4 +24,8 @@ h3.ui.header.Home-h3 {
 
 .Home-segment p {
     font-size: 1.33em;
+}
+
+.Home img {
+    width: 100%;
 }

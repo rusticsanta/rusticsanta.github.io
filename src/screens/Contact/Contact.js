@@ -1,17 +1,18 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { Segment, Container, Grid, Header } from 'semantic-ui-react';
 import './Contact.css';
 
 const ScreensContact = () => (
-    <Segment inverted vertical className="Contact-segment">
+    <div>
         {/* Defining the Page title, meta, description */}
         <Helmet>
             <title>Rustic Santa - Contact</title>
             <meta name="description" content="Contact Page for Rustic Santa." />
+            {/* TODO: Add subject to your SEO */}
             <meta name="subject" content="Contact" />
         </Helmet>
-        <Container>
+        <div>Contact page</div>
+        {/* <Container>
             <Grid inverted stackable>
                 <Grid.Row>
                     <Grid.Column width={16}>
@@ -34,25 +35,25 @@ const ScreensContact = () => (
                         <p>
                             <a href="mailto:rusticsanta@hotmail.com">rusticsanta@hotmail.com</a>
                         </p>
-                        {/* <Header inverted as="h3">
+                        <Header inverted as="h3">
                             LinkedIn
                         </Header>
                         <p>
                             <a href="https://www.linkedin.com/in/MattJonesCreation/">
                                 linkedin.com/in/MattJonesCreation
                             </a>
-                        </p> */}
-                        {/* <Header inverted as="h3">
+                        </p>
+                        <Header inverted as="h3">
                             Github
                         </Header>
                         <p>
                             <a href="https://github.com/MattJonesCreation">github.com/MattJonesCreation</a>
-                        </p> */}
+                        </p> 
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
-        </Container>
-    </Segment>
+        </Container> */}
+    </div>
 );
 
 export default ScreensContact;

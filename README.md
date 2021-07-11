@@ -7,6 +7,11 @@ The main branch for this repo is Source. Since this is a User Page on GitHub Pag
 
 In the project directory, you can run:
 
+### `npm install` 
+
+First step to install all of the dependencies. Only necessary to run the first time 
+you begin your debugging. 
+
 ### `npm start`
 
 Runs the app in the development mode.<br />

@@ -1,0 +1,25 @@
+.Footer {
+    border-top: 1px solid #eee;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.Border {
+    border-top: 1px solid #eee;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.Border div {
+    align-content: center;
+    text-align: center;
+}
+
+.GoodSpacing {
+    padding-bottom: 1rem;
+}
+
+.FooterIcons a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}

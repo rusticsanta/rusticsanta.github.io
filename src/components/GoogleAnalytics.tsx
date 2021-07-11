@@ -10,7 +10,7 @@ interface ILocation {
 
 interface IGAProps {
     location: ILocation;
-    options: any;
+    options: Record<string, unknown>;
 }
 
 class GoogleAnalytics extends Component<IGAProps> {
@@ -41,7 +41,7 @@ class GoogleAnalytics extends Component<IGAProps> {
         ReactGA.pageview(page);
     }
 
-    render() {
+    render(): null {
         return null;
     }
 }

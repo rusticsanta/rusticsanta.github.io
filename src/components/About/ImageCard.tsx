@@ -1,15 +1,14 @@
 import React from 'react';
-import { Image, Card } from 'semantic-ui-react';
+import { Card, CardBody, CardTitle, CardSubtitle, CardImg } from 'reactstrap'
 import profilePic from 'src/images/rustic-santa-background.jpg';
 
 const AboutImageCard: () => JSX.Element = () => (
-    <Card centered>
-        <Image src={profilePic} />
-        <Card.Content>
-            <Card.Header>Rustic Santa</Card.Header>
-            <Card.Meta>Rustic Santa Meta Tag</Card.Meta>
-            <Card.Description>Rustic Santas Description</Card.Description>
-        </Card.Content>
+    <Card>
+        <CardImg src={profilePic} alt="Rustic Santa Meta Tag" />
+        <CardBody>
+            <CardTitle>Rustic Santa</CardTitle>
+            <CardSubtitle>Rustic Santas Description</CardSubtitle>
+        </CardBody>
     </Card>
 );
 

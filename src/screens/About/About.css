@@ -5,3 +5,7 @@
 .About-segment {
     padding: 5em 0em;
 }
+
+.About img {
+    width: 100%;
+}
