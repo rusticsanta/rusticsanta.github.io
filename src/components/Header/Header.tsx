@@ -36,7 +36,7 @@ const Header: FunctionComponent = () => {
             <div className="content-center">
                 <Container>
                     <h1 className="title">Welcome to Rustic Santas Website</h1>
-                    <div className="text-center"></div>
+                    <div className="text-center">Site is currently under construction...</div>
                 </Container>
             </div>
         </div>

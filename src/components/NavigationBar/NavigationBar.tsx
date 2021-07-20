@@ -40,7 +40,7 @@ const NavigationBar: FunctionComponent = () => {
     return (
         <Navbar className={'fixed-top ' + navbarColor} expand="md" color="info" dark>
             <Container>
-                <div className="navbar-translate">
+                {/* <div className="navbar-translate">
                     <NavbarBrand href="/" id="navbar-brand">
                         <div>
                             <Image
@@ -56,7 +56,7 @@ const NavigationBar: FunctionComponent = () => {
                             </Image>{' '}
                         </div>
                     </NavbarBrand>
-                </div>
+                </div> */}
                 <NavbarToggler onClick={toggle} className="mr-2" />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar style={{ marginRight: 'auto' }}>
