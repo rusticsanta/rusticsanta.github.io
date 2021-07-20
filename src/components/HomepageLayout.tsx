@@ -1,6 +1,7 @@
 import React, { ReactNode, FunctionComponent } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Header from './Header/Header';
+import NavigationBar from './NavigationBar/NavigationBar';
 import Footer from './UI/Footer';
 import './HomepageLayout.css';
 
@@ -9,15 +10,18 @@ interface ILayoutProps {
 }
 
 const HomepageLayout: FunctionComponent<ILayoutProps> = (props: ILayoutProps) => (
-    <div>
-        <Header />
-        <Container className="MainContainer">
-            <Row>
-                <Col>{props.children}</Col>
-            </Row>
-        </Container>
-        <Footer />
-    </div>
+    <>
+        <NavigationBar />
+        <div className="wrapper">
+            <Header />
+            <Container className="MainContainer">
+                <Row>
+                    <Col>{props.children}</Col>
+                </Row>
+            </Container>
+            <Footer />
+        </div>
+    </>
 );
 
 export default HomepageLayout;
