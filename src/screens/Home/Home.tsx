@@ -2,6 +2,7 @@ import React, { FunctionComponent } from 'react';
 import Helmet from 'react-helmet';
 // import ImageGallery from 'react-image-gallery';
 import { Container, Row, Col } from 'reactstrap';
+import RemainingUntilChristmas from 'src/components/RemainingUntilChristmas/RemainingUntilChristmas';
 
 // import ProjectGroup from '../../components/Project/Group';
 import './Home.css';
@@ -53,9 +54,10 @@ const ScreensHome: FunctionComponent = () => (
             <title>Rustic Santa - Home</title>
             <meta name="description" content="Contains the featured projects of Rustic Santa." />
             {/* TODO: Add subject content for SEO. */}
-            <meta name="subject" content="Technology Portfolio" />
+            <meta name="subject" content="Rustic Santa Claus" />
         </Helmet>
-        <h1>Latest WoodWorking Projects</h1>
+        <RemainingUntilChristmas />
+        {/* <h1>Latest WoodWorking Projects</h1> */}
         <div className="Home">
             <Container>
                 <Row>
