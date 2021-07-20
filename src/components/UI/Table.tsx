@@ -2,8 +2,8 @@ import React from 'react';
 
 interface IProps {
     title: string;
-    rows: Array<any>;
-    headers: Array<any>;
+    rows: Array<Array<JSX.Element>>;
+    headers: Array<JSX.Element>;
 }
 
 const UITable: (props: IProps) => JSX.Element = (props: IProps) => (
@@ -21,7 +21,7 @@ const UITable: (props: IProps) => JSX.Element = (props: IProps) => (
                 {props.rows.map((row, index) => {
                     return (
                         <tr key={index}>
-                            {row.map((r: any, index: number) => {
+                            {row.map((r: JSX.Element, index: number) => {
                                 return <td key={index}>{r}</td>;
                             })}
                         </tr>

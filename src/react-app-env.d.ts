@@ -178,7 +178,7 @@ declare module 'cloudinary-react' {
         opacity?: number | string;
         overlay?: string | string;
         page?: number | string;
-        poster?: string | Object;
+        poster?: string | unknown;
         prefix?: string;
         quality?: string | number;
         radius?: number | string;
@@ -192,7 +192,7 @@ declare module 'cloudinary-react' {
         underlay?: string;
         variable?: [string, any];
         variables?: Array<[string, any]>;
-        videoCodec?: string | Object;
+        videoCodec?: string | unknown;
         videoSampling?: number | string;
         width?: string | number;
         x?: number | string;
