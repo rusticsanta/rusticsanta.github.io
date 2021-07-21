@@ -1,3 +1,7 @@
+.navbar-santa {
+    background-color: #ff0a0e;
+}
+
 .navbar {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
@@ -37,9 +41,10 @@
 }
 .navbar .navbar-nav .nav-link:not(.btn) {
     text-transform: uppercase;
-    font-size: 0.7142em;
+    font-size: 0.9142em;
     padding: 0.5rem 0.7rem;
     line-height: 1.625rem;
+    font-weight: 500;
 }
 .navbar .navbar-nav .nav-link:not(.btn) i.fab + p,
 .navbar .navbar-nav .nav-link:not(.btn) i.now-ui-icons + p {
@@ -83,8 +88,8 @@
 .navbar .navbar-brand {
     text-transform: uppercase;
     font-size: 0.8571em;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    /* padding-top: 0.5rem;
+    padding-bottom: 0.5rem; */
     line-height: 1.625rem;
 }
 /* .navbar .navbar-toggler {

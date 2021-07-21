@@ -2,6 +2,14 @@
     position: relative;
 }
 
+.content-center .title {
+    font-size: 4rem;
+}
+
+.content-center .text-center {
+    font-size: 1.75rem;
+}
+
 .parallax {
     /* The image used */
     /* Set a specific height */

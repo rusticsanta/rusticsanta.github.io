@@ -7,10 +7,10 @@ The main branch for this repo is Source. Since this is a User Page on GitHub Pag
 
 In the project directory, you can run:
 
-### `npm install` 
+### `npm install`
 
-First step to install all of the dependencies. Only necessary to run the first time 
-you begin your debugging. 
+First step to install all of the dependencies. Only necessary to run the first time
+you begin your debugging.
 
 ### `npm start`
 
@@ -61,7 +61,6 @@ Designed and built by Matt Jones, bootstrapped with create-react-app.
 -   [Typescript-eslint documentation](https://github.com/typescript-eslint/typescript-eslint). Coding standards enforcerer.
 -   [Prettier documentation](https://prettier.io/). Formatting code.
 -   [React Router documentation](https://reacttraining.com/react-router/). Declarative routing for React.
--   [Semantic UI React documentation](https://react.semantic-ui.com/). Manages fonts and styling.
 -   [React Helmet documentation](https://github.com/nfl/react-helmet). Manages the document head, including title, description, and meta tags.
 -   [React Snapshot documentation](https://www.npmjs.com/package/react-snapshot). A zero-configuration pre-renderer for React apps.
 -   [React Google Analytics](https://github.com/react-ga/react-ga). Tracking react page clicks and button clicks.

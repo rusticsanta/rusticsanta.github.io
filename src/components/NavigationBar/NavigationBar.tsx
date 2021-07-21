@@ -38,25 +38,15 @@ const NavigationBar: FunctionComponent = () => {
     });
 
     return (
-        <Navbar className={'fixed-top ' + navbarColor} expand="md" color="info" dark>
+        <Navbar className={'navbar-santa fixed-top ' + navbarColor} expand="md" dark>
             <Container>
-                {/* <div className="navbar-translate">
-                    <NavbarBrand href="/" id="navbar-brand">
-                        <div>
-                            <Image
-                                cloudName="rusticsanta"
-                                publicId="IMG_0072_sfu1ip"
-                                secure={true}
-                                quality="auto"
-                                fetchFormat="auto"
-                                alt="Rustic Santa Logo"
-                            >
-                                <Transformation quality="auto" radius="30" width="110" crop="thumb" />
-                                <Transformation angle="0" />
-                            </Image>{' '}
-                        </div>
-                    </NavbarBrand>
-                </div> */}
+                <NavbarBrand href="/" id="navbar-brand">
+                    <div>
+                        <Image cloudName="rusticsanta" secure={true} publicId="IMG_0072_sfu1ip.webp">
+                            <Transformation quality="auto" radius="20" width="80" crop="scale" />
+                        </Image>
+                    </div>
+                </NavbarBrand>
                 <NavbarToggler onClick={toggle} className="mr-2" />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar style={{ marginRight: 'auto' }}>
