@@ -51,27 +51,58 @@ const NavigationBar: FunctionComponent = () => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar style={{ marginRight: 'auto' }}>
                         <NavItem>
-                            <NavLink tag={ReactRouterNavLink} to="/" exact={true} name="home" activeClassName="active">
+                            <NavLink
+                                onClick={toggle}
+                                tag={ReactRouterNavLink}
+                                to="/"
+                                exact={true}
+                                name="home"
+                                activeClassName="active"
+                            >
                                 Home
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink tag={ReactRouterNavLink} to="/about" name="about" activeClassName="active">
+                            <NavLink
+                                onClick={toggle}
+                                tag={ReactRouterNavLink}
+                                to="/about"
+                                name="about"
+                                activeClassName="active"
+                            >
                                 About Rustic Santa
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink tag={ReactRouterNavLink} to="/services" name="services" activeClassName="active">
+                            <NavLink
+                                onClick={toggle}
+                                tag={ReactRouterNavLink}
+                                to="/services"
+                                name="services"
+                                activeClassName="active"
+                            >
                                 Services
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink tag={ReactRouterNavLink} to="/gallery" name="gallery" activeClassName="active">
+                            <NavLink
+                                onClick={toggle}
+                                tag={ReactRouterNavLink}
+                                to="/gallery"
+                                name="gallery"
+                                activeClassName="active"
+                            >
                                 Gallery
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink tag={ReactRouterNavLink} to="/contact" name="contact" activeClassName="active">
+                            <NavLink
+                                onClick={toggle}
+                                tag={ReactRouterNavLink}
+                                to="/contact"
+                                name="contact"
+                                activeClassName="active"
+                            >
                                 Contact Us
                             </NavLink>
                         </NavItem>
