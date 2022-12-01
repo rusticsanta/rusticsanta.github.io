@@ -108,7 +108,7 @@ const NavigationBar: FunctionComponent = () => {
                         </NavItem>
                     </Nav>
                     <NavbarText>
-                        <a href="https://www.facebook.com/rustic.santa.9">
+                        <a href="https://www.facebook.com/rustic.santa1">
                             <FaFacebook size={36} color={'#fff'} />
                         </a>
                     </NavbarText>
